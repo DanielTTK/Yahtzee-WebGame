@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/help.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container col-6 offset-3">
+        <h1 class="maintext">Yahtzee Tutorial</h1>
+        <p class="bread">To play yahtzee on this website you need pen and paper to save your scores. Ideally you get a yahtzee sheet online. <br>
+            Bear in mind that you are not supposed to play same scoring twice. For example you cannot score chance twice when you're playing.<br>
+            So if you were to get two ones, score two points and then the next turn you get a single one, you cannot score the single point because you've
+            already used up that slot. Though you can score ones on a new slot if you were to get them as three or four pairs as
+            three of a kind or four of a kind, but here aswell, only once.<br></p>
+
+            <p class="bread">The primary rules you need to remember for this program is how straights, yahtzee and full house work:<br><br>
+            Full house: Three of a kind and two of another kind. Gives 25 points.<br>
+            Small Straight: Ladder of four numbers. Ex. 1-2-3-4 or 2-3-4-5 or 3-4-5-6. Gives 30 points<br>
+            Large Straight: Ladder of four numbers. Ex. 1-2-3-4-5 or 2-3-4-5-6. Gives 40 points<br>
+            Yahtzee: Five of a kind gives 50 points automatically!<br>
+            Also bear in mind that this program is a work in progress, therefore we haven't developed a way<br>
+            for you to skip the turn when you are content with you score. If you are certain of your score just lock<br>
+            all dices in and roll out until you get the reset button. In time an extra reset button without conditions will be added.<br><br>
+            When it comes to pairs and chance, the most common score you'll get on a game of yahtzee,<br>
+            the game shows you those scores so you don't need to calculate anything while playing.
+        </p>
+
+        <button id="back" onclick="window.location.href = 'yahtzee.html';">Back</button>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

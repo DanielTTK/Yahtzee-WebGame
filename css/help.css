@@ -1,0 +1,26 @@
+body {
+    font-family: "arial";
+    background-color: #3b695d;
+}
+
+.maintext {
+    font-size: 25px;
+    margin-top: 20vh;
+    color: #ffffff;
+}
+
+.bread{
+    font-size:15px;
+    color: #ffffff;
+}
+
+#back{
+    height: 70%;
+    width: 15%;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 3vw;
+    background-color: #06D6A0;
+    border: none;
+}

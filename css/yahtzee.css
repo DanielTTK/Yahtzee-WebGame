@@ -1,0 +1,152 @@
+#roll{
+    top: 75%;
+    left: 50%;
+    width: 30%;
+    border-radius: 10px;
+    height: 12.5vh;
+    background-color: #06D6A0;
+    border: none;
+    font-size:5vw;
+}
+
+body{
+    font-family: "arial";
+    background-color: #4d8878;
+}
+
+.dice{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.playarea{
+    position: relative;
+    height: 46vh;
+    background: white;
+    border: 5px solid #06D6A0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 44%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.pointarea{
+    position: relative;
+    background: white;
+    border: 5px solid #06D6A0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 50%;
+    height: 16vh;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+#announce {
+    font-size: 33px;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+#points {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#chancepoints {
+    margin: 10px;
+    font-size: 25px;
+    text-align:center;
+}
+
+@media(max-width: 1350px){
+    .playarea{
+        width: 65%;
+    }
+    
+    .pointarea{
+        width: 70%;
+    }
+}
+
+.dice{
+    margin: 1vh;
+}
+
+@media (max-width: 700px){
+    .dice {
+    width: 70px;
+    height: 70px;
+    }
+    #announce {
+        font-size: 20px;
+        margin: 0px;
+    }
+    #points {
+        font-size: 15px;
+    }
+    #chancepoints {
+        font-size: 15px;
+    } 
+}
+
+.contain {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 75%;
+    height: 16vh;
+    left: 50%;
+    transform: translate(-50%, 125%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#back{
+    height: 70%;
+    width: 15%;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 3vw;
+    background-color: #06D6A0;
+    border: none;
+}
+
+#help{
+    height: 70%;
+    width: 15%;
+    border-radius: 50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 3vw;
+    background-color: #06D6A0;
+    border: none;
+}
+
+@media (max-width: 768px){
+    #back{
+        width: 25%;
+        font-size: 4vw;
+    }
+    #help {
+        width: 25%;
+        font-size: 4vw;
+    }
+}

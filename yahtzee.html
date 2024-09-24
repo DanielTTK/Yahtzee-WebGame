@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/yahtzee.css"> 
+    <title>Yahtzee Game</title>
+</head>
+<body>
+    <div class="playarea">
+        <!-- On click => Runs save(i) to execute a function for that particular img in javascript file -->
+        <input type="image" id="dice1" class="dice" src="img/dice6.png" alt="Dice" onclick="save(0)">
+        <input type="image" id="dice2" class="dice" src="img/dice6.png" alt="Dice" onclick="save(1)">
+        <input type="image" id="dice3" class="dice" src="img/dice6.png" alt="Dice" onclick="save(2)">
+        <input type="image" id="dice4" class="dice" src="img/dice6.png" alt="Dice" onclick="save(3)">
+        <input type="image" id="dice5" class="dice" src="img/dice6.png" alt="Dice" onclick="save(4)">
+    </div>
+
+
+    <div class="pointarea">
+            <p id="points">Points from pairs: <br></p>
+            <p id="announce">3/3 Rolls</p>
+            <p id="chancepoints">Points from chance: <br></p>
+    </div>
+
+    <div class="contain">
+        <button id="back" onclick="window.location.href = 'index.html';">Back</button>
+        <button id="roll">Begin</button>
+        <button id="help" onclick="window.location.href = 'help.html';">Help</button>
+    </div>
+</body>
+</html>
+<script src="js/yahtzee.js"></script>
